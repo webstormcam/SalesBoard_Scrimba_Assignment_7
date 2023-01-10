@@ -17,3 +17,34 @@ COLOR: #9E4770
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background-color: #201A23;
+    
+}
+
+#sales-board{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#person-frame{
+    width: 219px;
+    height: 219px;
+    border-radius: 50%;
+}
+
+#person-frame img{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #44354A;
+}
