@@ -99,15 +99,16 @@ button:hover{
 #revenue-commision-section{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 867px;
+    margin-bottom: 4rem;
 }
 
 .totals{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 50%;
+    width: 49%;
 }
 
 .total-display{
