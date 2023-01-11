@@ -30,11 +30,30 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 h1{
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+h2{
+font-size: 2rem;
+}
+
+button{
+    background-color: #9E4770;
+    width: 118px;
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 #person-frame{
@@ -46,5 +65,54 @@ h1{
 #person-frame img{
     width: 100%;
     border-radius: 50%;
-    border: 5px solid #44354A;
+    border: 8px solid #44354A;
+}
+
+#button-section{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 250px;
+    justify-content: space-between;
+    
+}
+
+
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 867px;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.sales-achievements-style{
+    height: 67px;
+    width: 100%;
+    background: #44354A;
+  margin-top: 1rem;
+  border-radius: 2rem;
+
+}
+
+#revenue-commision-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    max-width: 867px;
+}
+
+.totals{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+.total-display{
+    height: 86px;
+    background-color: #44354A;
+    border-radius: 4rem;
+    margin-top: 1rem;
 }
