@@ -47,10 +47,16 @@ function render(){
         arrayOfAchivements.push('🔔')
     }
 
+    if(revenueTotal>=2500 && arrayOfAchivements.includes('💰')===false){
+        arrayOfAchivements.push('💰')
+    }
+
 
     if(arrayOfSales.length===15){
         arrayOfAchivements.push('🏆')
     }
+
+
 
     for(let i=0; i<arrayOfSales.length; i++){
          salesHolder+=arrayOfSales[i]
