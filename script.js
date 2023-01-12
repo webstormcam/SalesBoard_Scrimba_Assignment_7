@@ -4,6 +4,7 @@ let arrayOfAchivements=[]
 let salesNum = document.getElementById('live-sales-num')
 let salesOutput = document.getElementById('sales-output')
 let achivementNum = document.getElementById('live-achievement-num')
+let achievementOutput = document.getElementById('achievement-output')
 let revenueOutput= document.getElementById('revenue')
 let commisionOutput = document.getElementById('commision')
 let revenueTotal = 0
@@ -40,13 +41,32 @@ let productB = {
 
 function render(){
     let salesHolder=""
-    for(let i=0; i<arrayOfSales.length; i++){
+    let achievementHolder=""
 
-        salesHolder+=arrayOfSales[i]
+    if(arrayOfSales.length===1){
+        arrayOfAchivements.push('🔔')
     }
+
+
+    if(arrayOfSales.length===15){
+        arrayOfAchivements.push('🏆')
+    }
+
+    for(let i=0; i<arrayOfSales.length; i++){
+         salesHolder+=arrayOfSales[i]
+    }
+
+    for(let i=0;i<arrayOfAchivements.length;i++){
+        achievementHolder+=arrayOfAchivements[i]
+    }
+
+   
+  
 
     salesNum.innerHTML = arrayOfSales.length
     salesOutput.innerHTML = salesHolder
+    achivementNum.innerHTML= arrayOfAchivements.length
+    achievementOutput.innerHTML = achievementHolder
     revenueOutput.innerHTML = `$${revenueTotal}`
     commisionOutput.innerHTML = `$${commisionTotal}`
  
