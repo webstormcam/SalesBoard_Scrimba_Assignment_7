@@ -10,7 +10,7 @@ let commisionOutput = document.getElementById('commision')
 let revenueTotal = 0
 let commisionTotal = 0 
 
-// Product A info
+// Product A 
 let productA = {
     emoji: "⭐",
     revenue: 200,
@@ -23,7 +23,7 @@ let productA = {
     }
 }
 
-// Product B info
+// Product B 
 let productB = {
     emoji: "🔥",
     revenue: 300,
@@ -47,7 +47,7 @@ function render(){
         arrayOfAchivements.push('🔔')
     }
 
-    if(revenueTotal>=2500 && arrayOfAchivements.includes('💰')===false){
+    if(revenueTotal>2500 && arrayOfAchivements.includes('💰')===false){
         arrayOfAchivements.push('💰')
     }
 
