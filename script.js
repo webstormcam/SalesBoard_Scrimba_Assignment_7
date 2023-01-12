@@ -4,6 +4,8 @@ let arrayOfAchivements=[];
 let salesNum = document.getElementById('live-sales-num')
 let salesOutput = document.getElementById('sales-output')
 let achivementNum = document.getElementById('live-achievement-num')
+let revenueOutput= document.getElementById('revenue')
+let commisionOutput = document.getElementById('commision')
 
 // Product A info
 let productA = {
@@ -23,6 +25,7 @@ let productB = {
     commision: 75,
     sellB:function(){
         arrayOfSales.push(this.emoji)
+      
         render()
       
 
