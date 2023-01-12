@@ -93,6 +93,9 @@ button:hover{
     background: #44354A;
   margin-top: 1rem;
   border-radius: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  overflow: scroll;
 
 }
 

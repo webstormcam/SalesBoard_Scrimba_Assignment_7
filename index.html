@@ -18,16 +18,16 @@
             <img src="images/picture.jpg" alt="developer image">
         </div>
         <div id="button-section">
-            <button value="⭐" id="star">⭐</button>
-            <button value="🔥" id="flame">🔥</button>
+            <button value="⭐" onclick="productA.sellA()" id="star">⭐</button>
+            <button value="🔥" onclick="productB.sellB()" id="flame">🔥</button>
         </div>
 
         <div class="results">
-            <h2>Live Sales - 0</h2>
+            <h2>Live Sales - <span id="live-sales-num">0</span></h2>
             <p class="sales-achievements-style" id="sales-output"></p>
         </div>
         <div class="results">
-            <h2>Live Achievements - 0</h2>
+            <h2>Live Achievements - <span id="live-achievement-num">0</span></h2>
             <p class="sales-achievements-style" id="achievement-output"></p>
         </div>
         <div id="revenue-commision-section">
