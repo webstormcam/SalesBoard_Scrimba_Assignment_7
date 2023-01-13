@@ -10,6 +10,8 @@ let commisionOutput = document.getElementById('commision')
 let revenueTotal = 0
 let commisionTotal = 0 
 
+
+
 // Product A 
 let productA = {
     emoji: "⭐",
